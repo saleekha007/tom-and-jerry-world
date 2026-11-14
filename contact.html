@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Contact Tom and Jerry World.">
+
+    <title>Contact | Tom & Jerry World</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you!</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="characters.html">Characters</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="episodes.html">Episodes</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <section class="contact-section">
+            <h2>Send Us a Message</h2>
+
+            <p>
+                Have a question or suggestion?
+                Send us a message!
+            </p>
+
+            <!-- Contact Form -->
+            <form action="#" method="post">
+
+                <label for="name">Your Name:</label>
+                <br>
+                <input
+                    type="text"
+                    id="name"
+                    name="username"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <br><br>
+
+                <label for="email">Your Email:</label>
+                <br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <br><br>
+
+                <label for="subject">Subject:</label>
+                <br>
+                <select id="subject" name="subject">
+                    <option value="">Select a subject</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="question">Question</option>
+                    <option value="suggestion">Suggestion</option>
+                </select>
+
+                <br><br>
+
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    cols="30"
+                    placeholder="Write your message here..."
+                    required
+                ></textarea>
+
+                <br><br>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Tom & Jerry World. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
